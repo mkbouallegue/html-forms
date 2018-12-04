@@ -1,0 +1,46 @@
+body{
+    background-image: url(img.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+.ada{
+    color: white;
+}
+.img{
+    width: 290px;
+    height: 200 px;
+}
+#name, #objet{
+    width: 400px;
+    height: 30px;
+    margin: 1%;
+}
+#message{
+    margin: 1%;
+}
+.parent{
+    display: flex;
+}
+.part1, .part2 {
+    border: solid;
+    border-color: antiquewhite;
+    border-width: 0ch;
+    box-shadow: 0 0 15px;
+
+}
+.part1{
+    flex:1 ;
+    background-color: #48D1CC;
+}
+.part2{
+    flex: 3;
+    background-color:#F0FFF0;
+    opacity: 0.9;
+}
+textarea{
+    resize: none;
+}
+#sub{
+    width: 700px;
+    height: 50px;
+    background-color:#87CEEB;
+}
